@@ -5,9 +5,9 @@ const card = document.querySelector('.outer-container');
 
 const ADVICE_SLIP_URL = 'https://api.adviceslip.com/advice';
 
-window.addEventListener('load', () => {
-    getAdvice();
-});
+// window.addEventListener('load', () => {
+//     getAdvice();
+// });
 
 dice.addEventListener('click', () => {
     getAdvice();
